@@ -1,0 +1,97 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}   
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(176, 250, 225);
+}
+
+#game-box{
+    height: 80%;
+    width: 80%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#top-game-box{
+    background-color: rgb(34, 113, 87);
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5vmax;
+    gap: 5px;
+}
+
+.button{
+    margin-left: 50px;
+    font-size: 2vw;
+   padding: 0.7vmax;   
+   border: 3px solid rgb(18, 3, 3);
+   border-radius: 10px;
+   &:hover{
+    background-color: black;
+    color: aliceblue;
+   }
+}
+
+#top-game-box h3{
+    font-size: 1.5vmax;
+    font-weight: 700;
+    
+}
+
+.box{
+    background-color:rgb(207, 250, 235);
+    font-size: 1.5vmax;
+    font-weight: 400;
+    height:2vmax;
+    width: 2vmax;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble{
+    background-color: rgb(46, 128, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.7vmax;
+    width: 3.7vmax;
+    margin: 0.7vmax;
+    border-radius: 50%;
+    font-size: 2vmax;
+    font-weight: 200;
+    &:hover{
+        border: 1px solid black;
+        background-color: aqua;
+        color: rgb(255, 255, 255);
+    }
+}
+
+#bottom-game-box{
+    display: flex;
+    flex-wrap: wrap;
+}
